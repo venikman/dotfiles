@@ -214,5 +214,25 @@
 	{
         "key": "cmd+k cmd+i",
         "command": "namespaceResolver.import"
+    },
+    {
+        "key": "cmd+o",
+        "command": "editor.action.marker.next",
+        "when": "editorFocus"
+    },
+    {
+        "key": "alt+f8",
+        "command": "-editor.action.marker.next",
+        "when": "editorFocus"
+    },
+    {
+        "key": "shift+cmd+o",
+        "command": "editor.action.marker.nextInFiles",
+        "when": "editorFocus"
+    },
+    {
+        "key": "f8",
+        "command": "-editor.action.marker.nextInFiles",
+        "when": "editorFocus"
     }
 ]

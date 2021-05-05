@@ -27,7 +27,7 @@
     */
     "breadcrumbs.enabled": false,
     "scm.diffDecorations": "none",
-    "editor.hover.enabled": false,
+    "editor.hover.enabled": true,
     "editor.matchBrackets": "never",
     "workbench.tips.enabled": false,
     "editor.colorDecorators": false,
@@ -36,7 +36,7 @@
     "editor.lightbulb.enabled": false,
     "editor.selectionHighlight": false,
     "editor.overviewRulerBorder": false,
-    "editor.renderLineHighlight": "none",
+    "editor.renderLineHighlight": "line",
     "editor.occurrencesHighlight": false,
     "problems.decorations.enabled": false,
     "editor.renderControlCharacters": false,
@@ -63,10 +63,6 @@
     * My OLD personal
     */
     "terminal.integrated.shell.osx": "/usr/local/bin/bash",
-    "workbench.sideBar.location": "right",
-    "workbench.tips.enabled": false,
-    "breadcrumbs.enabled": false,
-    "files.insertFinalNewline": true,
     "workbench.iconTheme": "material-icon-theme",
     "[typescript]": {
         "editor.defaultFormatter": "denoland.vscode-deno"
@@ -113,7 +109,7 @@
         // Change cursor color.
         ".monaco-editor .cursor": "background: linear-gradient(to bottom, #7f00ff, #e100ff) !important; color: #292D3E !important"
     },
-    "window.zoomLevel": 1,
+    "window.zoomLevel": 2,
     "editor.wordWrap": "on",
     "markdown-preview-enhanced.liveUpdate": false
 
