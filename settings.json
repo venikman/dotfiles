@@ -54,6 +54,7 @@
     **/
     "editor.fontFamily": "Fira Code",
     "editor.fontSize": 12,
+    "editor.fontWeight": 400,
     "editor.lineHeight": 0,
     "editor.suggestFontSize": 12,
     "editor.suggestLineHeight": 28,
@@ -71,7 +72,7 @@
     "liveshare.authenticationProvider": "GitHub",
     "explorer.confirmDelete": false,
     "workbench.activityBar.visible": false,
-    "workbench.colorTheme": "Palenight Operator",
+    "workbench.colorTheme": "Solarized Dark",
 
 
        /**
@@ -112,7 +113,6 @@
     },
     "editor.wordWrap": "on",
     "markdown-preview-enhanced.liveUpdate": false,
-    "window.zoomLevel": 1,
     "cSpell.userWords": [
         "Недбайлов",
         "драйвить",
@@ -121,6 +121,8 @@
         "фичи",
         "фулстак"
     ],
-    "liveServer.settings.donotShowInfoMsg": true
+    "liveServer.settings.donotShowInfoMsg": true,
+    "window.zoomLevel": 3,
+    "files.autoSave": "onFocusChange"
 
 }
