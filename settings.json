@@ -28,7 +28,7 @@
     */
     "breadcrumbs.enabled": false,
     "scm.diffDecorations": "none",
-    "editor.hover.enabled": true,
+    "editor.hover.enabled": false,
     "editor.matchBrackets": "never",
     "workbench.tips.enabled": false,
     "editor.colorDecorators": false,
@@ -69,10 +69,16 @@
     "[typescript]": {
         "editor.defaultFormatter": "denoland.vscode-deno"
     },
+    "[markdown]": {
+        "editor.defaultFormatter": "denoland.vscode-deno"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "denoland.vscode-deno"
+    },
     "liveshare.authenticationProvider": "GitHub",
     "explorer.confirmDelete": false,
     "workbench.activityBar.visible": false,
-    "workbench.colorTheme": "Solarized Dark",
+    "workbench.colorTheme": "CodeSandbox Black",
 
 
        /**
@@ -122,7 +128,7 @@
         "фулстак"
     ],
     "liveServer.settings.donotShowInfoMsg": true,
-    "window.zoomLevel": 3,
+    "window.zoomLevel": 4,
     "files.autoSave": "onFocusChange"
 
 }
