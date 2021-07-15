@@ -128,7 +128,6 @@
         "фулстак"
     ],
     "liveServer.settings.donotShowInfoMsg": true,
-    "window.zoomLevel": 4,
+    "window.zoomLevel": 5,
     "files.autoSave": "onFocusChange"
-
 }

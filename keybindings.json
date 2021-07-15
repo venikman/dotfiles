@@ -283,5 +283,13 @@
         "key": "cmd+k cmd+i",
         "command": "-editor.action.showHover",
         "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+d cmd+t",
+        "command": "extension.js-debug.createDebuggerTerminal"
+    },
+    {
+        "key": "shift+cmd+d shift+cmd+t",
+        "command": "workbench.action.quickOpenTerm"
     }
 ]
