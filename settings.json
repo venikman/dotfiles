@@ -78,7 +78,7 @@
     "liveshare.authenticationProvider": "GitHub",
     "explorer.confirmDelete": false,
     "workbench.activityBar.visible": false,
-    "workbench.colorTheme": "CodeSandbox Black",
+    "workbench.colorTheme": "Noctis Azureus",
 
 
        /**
@@ -120,6 +120,7 @@
     "editor.wordWrap": "on",
     "markdown-preview-enhanced.liveUpdate": false,
     "cSpell.userWords": [
+        "fastify",
         "Недбайлов",
         "драйвить",
         "скилс",
@@ -128,6 +129,8 @@
         "фулстак"
     ],
     "liveServer.settings.donotShowInfoMsg": true,
-    "window.zoomLevel": 5,
-    "files.autoSave": "onFocusChange"
+    "files.autoSave": "onFocusChange",
+    "editor.inlineSuggest.enabled": true,
+    "explorer.confirmDragAndDrop": false,
+    "window.zoomLevel": 3
 }

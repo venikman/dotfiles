@@ -1,6 +1,5 @@
 set scrolloff=8
 set number
-set relativenumber
 set expandtab
 set tabstop=4 softtabstop=4
 set shiftwidth=4
@@ -16,4 +15,4 @@ colorscheme ayu
 
 let mapleader = " "
 nnoremap <leader>pv :Vex<CR>
-nnoremap <Leader><CR> :w<CR>:so ~/.config/nvim/init.vim<CR>
+nnoremap <leader><CR> :w<CR>:so ~/.config/nvim/init.vim<CR>
