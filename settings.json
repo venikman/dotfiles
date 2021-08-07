@@ -2,7 +2,7 @@
     "cSpell.language": "en,ru",
 
     /**
-    * Better Defaults
+    * Better Default
     **/
     "editor.copyWithSyntaxHighlighting": true,
     "diffEditor.ignoreTrimWhitespace": false,
@@ -54,7 +54,7 @@
     **/
     "editor.fontFamily": "Fira Code",
     "editor.fontSize": 12,
-    "editor.fontWeight": 400,
+    "editor.fontWeight": "400",
     "editor.lineHeight": 0,
     "editor.suggestFontSize": 12,
     "editor.suggestLineHeight": 28,
@@ -65,20 +65,16 @@
     * My OLD personal
     */
     "terminal.integrated.shell.osx": "/usr/local/bin/bash",
-    "workbench.iconTheme": "material-icon-theme",
     "[typescript]": {
-        "editor.defaultFormatter": "denoland.vscode-deno"
+        "editor.defaultFormatter": "numso.prettier-standard-vscode"
     },
     "[markdown]": {
-        "editor.defaultFormatter": "denoland.vscode-deno"
-    },
-    "[javascript]": {
         "editor.defaultFormatter": "denoland.vscode-deno"
     },
     "liveshare.authenticationProvider": "GitHub",
     "explorer.confirmDelete": false,
     "workbench.activityBar.visible": false,
-    "workbench.colorTheme": "Noctis Azureus",
+    "workbench.colorTheme": "Noctis Minimus",
 
 
        /**
@@ -117,10 +113,17 @@
         // Change cursor color.
         ".monaco-editor .cursor": "background: linear-gradient(to bottom, #7f00ff, #e100ff) !important; color: #292D3E !important"
     },
-    "editor.wordWrap": "on",
-    "markdown-preview-enhanced.liveUpdate": false,
     "cSpell.userWords": [
+        "FORGEROCK",
+        "Meatlovers",
+        "cfdeploy",
+        "csrf",
+        "deno",
+        "denoland",
         "fastify",
+        "fhir",
+        "stas",
+        "testdouble",
         "Недбайлов",
         "драйвить",
         "скилс",
@@ -128,9 +131,21 @@
         "фичи",
         "фулстак"
     ],
-    "liveServer.settings.donotShowInfoMsg": true,
     "files.autoSave": "onFocusChange",
     "editor.inlineSuggest.enabled": true,
     "explorer.confirmDragAndDrop": false,
-    "window.zoomLevel": 3
+    "workbench.iconTheme": "material-icon-theme",
+    "terminal.integrated.tabs.enabled": true,
+    "[json]": {
+      "editor.defaultFormatter": "denoland.vscode-deno"
+    },
+    "cSpell.enabled": true,
+    "[javascript]": {
+        "editor.defaultFormatter": "denoland.vscode-deno"
+    },
+    "window.zoomLevel": 1,
+    "[jsonc]": {
+        "editor.defaultFormatter": "denoland.vscode-deno"
+    }
+
 }
