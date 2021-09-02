@@ -129,7 +129,14 @@
         "скилс",
         "фича",
         "фичи",
-        "фулстак"
+        "фулстак",
+        "FORGEROCK",
+        "Meatlovers",
+        "cfdeploy",
+        "csrf",
+        "fhir",
+        "stas",
+        "testdouble"
     ],
     "files.autoSave": "onFocusChange",
     "editor.inlineSuggest.enabled": true,
@@ -137,15 +144,12 @@
     "workbench.iconTheme": "material-icon-theme",
     "terminal.integrated.tabs.enabled": true,
     "[json]": {
-      "editor.defaultFormatter": "denoland.vscode-deno"
+      "editor.defaultFormatter": "numso.prettier-standard-vscode"
     },
     "cSpell.enabled": true,
     "[javascript]": {
-        "editor.defaultFormatter": "denoland.vscode-deno"
+        "editor.defaultFormatter": "numso.prettier-standard-vscode"
     },
-    "window.zoomLevel": 1,
-    "[jsonc]": {
-        "editor.defaultFormatter": "denoland.vscode-deno"
-    }
+    "window.zoomLevel": 4
 
 }
