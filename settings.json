@@ -73,7 +73,7 @@
     },
     "explorer.confirmDelete": false,
     "workbench.activityBar.visible": false,
-    "workbench.colorTheme": "Noctis Obscuro",
+    "workbench.colorTheme": "Overnight Italics",
 
 
        /**
@@ -81,23 +81,16 @@
     **/
     "search.useIgnoreFiles": false,
     "search.exclude": {
-        // Hide everything in /public, except "index.php"
         "**/public/{[^i],?[^n]}*": true,
         "**/node_modules": true,
         "**/dist": true,
         "**/package-lock.json": true,
         "**/coverage": true
     },
-
-
-        /**
-    * Window Settings
-    **/
     "window.nativeTabs": true,
-    "window.titleBarStyle": "native",
-    "customizeUI.titleBar": "inline",
+    "customizeUI.titleBar": "regular",
     "customizeUI.stylesheet": {
-        ".editor .title": "background: transparent !important;",
+        ".editor .title": "background: transparent !important; display: none !important;",
         // Hide name if the file
         ".editor .title .label-container": "visibility: hidden;",
         // Hide top-right buttons
@@ -114,35 +107,29 @@
         ".monaco-editor .cursor": "background: linear-gradient(to bottom, #7f00ff, #e100ff) !important; color: #292D3E !important"
     },
     "cSpell.userWords": [
-        "FORGEROCK",
-        "Meatlovers",
         "cfdeploy",
         "csrf",
         "deno",
         "denoland",
         "fastify",
         "fhir",
+        "FORGEROCK",
+        "Meatlovers",
         "stas",
         "testdouble",
-        "Недбайлов",
+        "userinfo",
         "драйвить",
+        "Недбайлов",
         "скилс",
         "фича",
         "фичи",
-        "фулстак",
-        "FORGEROCK",
-        "Meatlovers",
-        "cfdeploy",
-        "csrf",
-        "fhir",
-        "stas",
-        "testdouble"
+        "фулстак"
     ],
     "files.autoSave": "onFocusChange",
     "editor.inlineSuggest.enabled": true,
     "explorer.confirmDragAndDrop": false,
-    "workbench.iconTheme": "city-lights-icons-vsc",
-    "terminal.integrated.tabs.enabled": true,
+    "workbench.iconTheme": "city-lights-icons-vsc-light",
+    "terminal.integrated.tabs.enabled": false,
     "[json]": {
       "editor.defaultFormatter": "numso.prettier-standard-vscode"
     },
@@ -150,7 +137,11 @@
     "[javascript]": {
         "editor.defaultFormatter": "numso.prettier-standard-vscode"
     },
+    "[typescript]": {
+        "editor.defaultFormatter": "denoland.vscode-deno",
+    },
     "window.zoomLevel": 3,
-    "city-lights-icons-vsc.hidesExplorerArrows": false
+    "city-lights-icons-vsc.hidesExplorerArrows": false,
+    "window.title": "${activeEditorMedium}",
 
 }
