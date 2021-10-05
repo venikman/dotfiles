@@ -138,10 +138,9 @@
         "editor.defaultFormatter": "numso.prettier-standard-vscode"
     },
     "[typescript]": {
-        "editor.defaultFormatter": "denoland.vscode-deno",
+        "editor.defaultFormatter": "denoland.vscode-deno"
     },
     "window.zoomLevel": 3,
     "city-lights-icons-vsc.hidesExplorerArrows": false,
-    "window.title": "${activeEditorMedium}",
-
+    "window.title": "${activeEditorMedium}"
 }
