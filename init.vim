@@ -32,6 +32,7 @@ set colorcolumn=80
 
 call plug#begin('~/.vim/plugged')
 Plug 'ayu-theme/ayu-vim'
+Plug 'ThePrimeagen/vim-be-good'
 call plug#end()
 
 
