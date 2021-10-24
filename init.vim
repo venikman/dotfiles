@@ -33,6 +33,11 @@ set colorcolumn=80
 call plug#begin('~/.vim/plugged')
 Plug 'ayu-theme/ayu-vim'
 Plug 'ThePrimeagen/vim-be-good'
+Plug 'nvim-lua/plenary.nvim'
+Plug 'nvim-telescope/telescope.nvim'
+Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+Plug 'kyazdani42/nvim-web-devicons'
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 call plug#end()
 
 
@@ -43,4 +48,11 @@ colorscheme ayu
 let mapleader = " "
 nnoremap <leader>pv :Vex<CR>
 nnoremap <leader><CR> :w<CR>:so ~/.config/nvim/init.vim<CR>
+
+
+" telescope
+nnoremap <leader>ff <cmd>Telescope find_files<cr>
+nnoremap <leader>fg <cmd>Telescope live_grep<cr>
+nnoremap <leader>fb <cmd>Telescope buffers<cr>
+nnoremap <leader>fh <cmd>Telescope help_tags<cr>
 

@@ -142,5 +142,13 @@
     },
     "window.zoomLevel": 3,
     "city-lights-icons-vsc.hidesExplorerArrows": false,
-    "window.title": "${activeEditorMedium}"
+    "window.title": "${activeEditorMedium}",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    }
 }
