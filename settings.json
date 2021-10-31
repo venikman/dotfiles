@@ -139,7 +139,7 @@
   "[javascript]": {
     "editor.defaultFormatter": "denoland.vscode-deno"
   },
-"window.zoomLevel": 1,
+"window.zoomLevel": 3,
 "amVim.smartRelativeLineNumbers": true,
 "amVim.useSystemClipboard": true
 }
