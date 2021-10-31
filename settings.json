@@ -64,7 +64,7 @@
   /**
     * My OLD personal
     */
-  "terminal.integrated.shell.osx": "/usr/local/bin/bash",
+  "terminal.integrated.defaultProfile.osx": "fish",
   "[typescript]": {
     "editor.defaultFormatter": "numso.prettier-standard-vscode"
   },
@@ -139,7 +139,9 @@
   "[javascript]": {
     "editor.defaultFormatter": "denoland.vscode-deno"
   },
-"window.zoomLevel": 3,
+"window.zoomLevel": 4,
 "amVim.smartRelativeLineNumbers": true,
-"amVim.useSystemClipboard": true
+"amVim.useSystemClipboard": true,
+"editor.suggestSelection": "first",
+"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue"
 }
