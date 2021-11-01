@@ -106,6 +106,7 @@ autosave.setup(
     }
 )
 EOF
+
 let NERDTreeShowHidden=1
 let NERDTreeMinimalUI=1
 
