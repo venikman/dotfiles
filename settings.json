@@ -52,7 +52,7 @@
   /**
     * Typography
     **/
-  "editor.fontFamily": "Fira Code",
+  "editor.fontFamily": "Jetbrains Mono",
   "editor.fontSize": 12,
   "editor.fontWeight": "400",
   "editor.lineHeight": 0,
@@ -74,7 +74,7 @@
   "liveshare.authenticationProvider": "GitHub",
   "explorer.confirmDelete": false,
   "workbench.activityBar.visible": false,
-  "workbench.colorTheme": "Noctis Minimus",
+  "workbench.colorTheme": "Cobalt2",
 
   /**
     * Find
@@ -139,7 +139,7 @@
   "[javascript]": {
     "editor.defaultFormatter": "denoland.vscode-deno"
   },
-"window.zoomLevel": 4,
+"window.zoomLevel": 2,
 "amVim.smartRelativeLineNumbers": true,
 "amVim.useSystemClipboard": true,
 "editor.suggestSelection": "first",

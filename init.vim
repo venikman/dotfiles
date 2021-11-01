@@ -75,8 +75,6 @@ Plug 'terryma/vim-smooth-scroll'
 Plug 'preservim/nerdtree'
 Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
-
-" trying
 Plug 'ntpeters/vim-better-whitespace'
 Plug 'rstacruz/vim-closer'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
