@@ -8,3 +8,4 @@ set -q GHCUP_INSTALL_BASE_PREFIX[1]; or set GHCUP_INSTALL_BASE_PREFIX $HOME ; se
 abbr -a -g c clear
 abbr -a -g vi nvim
 abbr -a -g vim nvim
+fish_add_path /usr/local/opt/mysql@5.7/bin

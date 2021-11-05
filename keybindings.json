@@ -408,5 +408,14 @@
     {
         "key": "shift+alt+cmd+down",
         "command": "workbench.action.positionPanelBottom"
+    },
+    {
+        "key": "shift+cmd+j",
+        "command": "-workbench.action.search.toggleQueryDetails",
+        "when": "inSearchEditor || searchViewletFocus"
+    },
+    {
+        "key": "shift+cmd+j",
+        "command": "workbench.action.toggleMaximizedPanel"
     }
 ]
