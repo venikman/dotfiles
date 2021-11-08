@@ -62,7 +62,7 @@
     */
     "terminal.integrated.defaultProfile.osx": "fish",
     "[typescript]": {
-        "editor.defaultFormatter": "numso.prettier-standard-vscode"
+        "editor.defaultFormatter": "denoland.vscode-deno"
     },
     "[markdown]": {
         "editor.defaultFormatter": "denoland.vscode-deno"
@@ -70,7 +70,7 @@
     "liveshare.authenticationProvider": "GitHub",
     "explorer.confirmDelete": false,
     "workbench.activityBar.visible": false,
-    "workbench.colorTheme": "GitHub Dark Dimmed",
+    "workbench.colorTheme": "Nord Wave",
     /**
     * Find
     **/
@@ -102,20 +102,21 @@
         ".monaco-editor .cursor": "background: linear-gradient(to bottom, #7f00ff, #e100ff) !important; color: #292D3E !important"
     },
     "cSpell.userWords": [
+        "cfdeploy",
+        "csrf",
+        "Deno",
         "fastify",
-        "Недбайлов",
+        "fhir",
+        "FORGEROCK",
+        "Meatlovers",
+        "stas",
+        "testdouble",
         "драйвить",
+        "Недбайлов",
         "скилс",
         "фича",
         "фичи",
-        "фулстак",
-        "FORGEROCK",
-        "Meatlovers",
-        "cfdeploy",
-        "csrf",
-        "fhir",
-        "stas",
-        "testdouble"
+        "фулстак"
     ],
     "files.autoSave": "onFocusChange",
     "editor.inlineSuggest.enabled": true,
@@ -134,5 +135,7 @@
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "window.title": "${rootName} ${separator} ${rootName} ${activeEditorLong}",
-    "window.zoomLevel": 2
+    "window.zoomLevel": 2,
+    "editor.formatOnSave": true,
+    "insertDateString.format": "YYYY-MM-DD"
 }

@@ -9,3 +9,5 @@ abbr -a -g c clear
 abbr -a -g vi nvim
 abbr -a -g vim nvim
 fish_add_path /usr/local/opt/mysql@5.7/bin
+
+export PATH="/Users/venikman/.deno/bin:$PATH"
