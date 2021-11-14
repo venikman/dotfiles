@@ -70,7 +70,7 @@
     "liveshare.authenticationProvider": "GitHub",
     "explorer.confirmDelete": false,
     "workbench.activityBar.visible": false,
-    "workbench.colorTheme": "Nord Wave",
+    "workbench.colorTheme": "GitHub Dark Dimmed",
     /**
     * Find
     **/
@@ -107,6 +107,7 @@
         "Deno",
         "fastify",
         "fhir",
+        "foldl",
         "FORGEROCK",
         "Meatlovers",
         "stas",
@@ -130,12 +131,14 @@
     "[javascript]": {
         "editor.defaultFormatter": "denoland.vscode-deno"
     },
+    "[haskell]": {},
     "amVim.smartRelativeLineNumbers": false,
     "amVim.useSystemClipboard": true,
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "window.title": "${rootName} ${separator} ${rootName} ${activeEditorLong}",
-    "window.zoomLevel": 2,
+    "window.zoomLevel": 1,
     "editor.formatOnSave": true,
-    "insertDateString.format": "YYYY-MM-DD"
+    "insertDateString.format": "YYYY-MM-DD",
+    "haskell.formattingProvider": "none"
 }
