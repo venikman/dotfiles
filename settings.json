@@ -60,7 +60,7 @@
     /**
     * My OLD personal
     */
-    "terminal.integrated.defaultProfile.osx": "fish",
+    "terminal.integrated.defaultProfile.osx": "zsh",
     "[typescript]": {
         "editor.defaultFormatter": "denoland.vscode-deno"
     },
