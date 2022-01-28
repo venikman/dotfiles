@@ -77,6 +77,7 @@ plugins+=(zsh-vi-mode vscode)
 export EDITOR="nvim"
  alias vi="nvim"
  alias vim='nvim'
+ alias dc='docker-compose'
 
 
 source $ZSH/oh-my-zsh.sh
@@ -106,3 +107,12 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+export PATH="$PATH:$HOME/.otto/bin:/usr/local/opt/node/bin/node"
+
+
+export REQUESTS_CA_BUNDLE=/usr/local/etc/openssl@1.1/cert.pem
+
+export JAVA_TOOL_OPTIONS='-Djavax.net.ssl.trustStoreType=KeychainStore'
+
+export SBT_OPTS='-Djavax.net.ssl.trustStoreType=KeychainStore'
+export PATH="/usr/local/opt/node@16/bin:$PATH"
