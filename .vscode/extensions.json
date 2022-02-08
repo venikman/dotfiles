@@ -1,0 +1,29 @@
+{
+  // See https://go.microsoft.com/fwlink/?LinkId=827846 to learn about workspace recommendations.
+  // Extension identifier format: ${publisher}.${name}. Example: vscode.csharp
+
+  // List of extensions which should be recommended for users of this workspace.
+  "recommendations": [
+    "auiworks.amvim",
+    "streetsidesoftware.code-spell-checker",
+    "iocave.customize-ui",
+    "denoland.vscode-deno",
+    "usernamehw.errorlens",
+    "dbaeumer.vscode-eslint",
+    "github.codespaces",
+    "eamodio.gitlens",
+    "ritwickdey.liveserver",
+    "pkief.material-icon-theme",
+    "iocave.monkey-patch",
+    "azemoh.one-monokai",
+    "esbenp.prettier-vscode",
+    "ms-vscode-remote.remote-containers",
+    "humao.rest-client",
+    "streetsidesoftware.code-spell-checker-russian",
+    "tldraw-org.tldraw-vscode",
+    "rebornix.toggle",
+    "samverschueren.linter-xo"
+  ],
+  // List of extensions recommended by VS Code that should not be recommended for users of this workspace.
+  "unwantedRecommendations": []
+}

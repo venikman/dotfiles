@@ -57,7 +57,6 @@
   "liveshare.authenticationProvider": "GitHub",
   "explorer.confirmDelete": false,
   "workbench.activityBar.visible": false,
-  "workbench.colorTheme": "Firefox Dark",
   "window.titleBarStyle": "custom",
   "window.title": "${rootName} ${separator} ${rootName} ${activeEditorLong}",
   "customizeUI.titleBar": "regular",
@@ -107,6 +106,19 @@
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "window.zoomLevel": 1,
-  "vsnotes.defaultNotePath": "/Users/venikman/notes"
+  "vsnotes.defaultNotePath": "/Users/venikman/notes",
+  "workbench.colorTheme": "One Monokai",
+  "window.zoomLevel": 2,
+  "gitlens.codeLens.enabled": false,
+  "gitlens.statusBar.enabled": false,
+  "gitlens.hovers.avatars": false,
+  "gitlens.hovers.pullRequests.enabled": false,
+  "gitlens.hovers.currentLine.details": false,
+  "gitlens.hovers.currentLine.over": "line",
+  "gitlens.hovers.annotations.details": false,
+  "gitlens.blame.avatars": false,
+  "gitlens.changes.locations": [
+    "overview",
+    "gutter"
+  ]
 }
