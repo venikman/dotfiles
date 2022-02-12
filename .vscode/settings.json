@@ -48,12 +48,6 @@
    * My OLD personal
    */
   "terminal.integrated.defaultProfile.osx": "zsh",
-  "[typescript]": {
-    "editor.defaultFormatter": "denoland.vscode-deno"
-  },
-  "[markdown]": {
-    "editor.defaultFormatter": "denoland.vscode-deno"
-  },
   "liveshare.authenticationProvider": "GitHub",
   "explorer.confirmDelete": false,
   "workbench.activityBar.visible": false,
@@ -97,18 +91,19 @@
     "editor.defaultFormatter": "denoland.vscode-deno"
   },
   "[haskell]": {},
+  "[typescript]": {
+    "editor.defaultFormatter": "denoland.vscode-deno"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "denoland.vscode-deno"
+  },
   "amVim.useSystemClipboard": true,
   "editor.suggestSelection": "first",
   "editor.formatOnSave": true,
   "insertDateString.format": "YYYY-MM-DD",
   "haskell.formattingProvider": "none",
   "editor.wordWrap": "on",
-  "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "vsnotes.defaultNotePath": "/Users/venikman/notes",
   "workbench.colorTheme": "One Monokai",
-  "window.zoomLevel": 2,
   "gitlens.codeLens.enabled": false,
   "gitlens.statusBar.enabled": false,
   "gitlens.hovers.avatars": false,
@@ -117,8 +112,11 @@
   "gitlens.hovers.currentLine.over": "line",
   "gitlens.hovers.annotations.details": false,
   "gitlens.blame.avatars": false,
-  "gitlens.changes.locations": [
-    "overview",
-    "gutter"
-  ]
+  "gitlens.changes.locations": ["overview", "gutter"],
+  "liveServer.settings.donotVerifyTags": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "terminal.integrated.env.osx": {
+    "FIG_NEW_SESSION": "1"
+  },
+  "window.zoomLevel": 3
 }
