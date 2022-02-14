@@ -15,14 +15,17 @@
     "ritwickdey.liveserver",
     "pkief.material-icon-theme",
     "iocave.monkey-patch",
-    "azemoh.one-monokai",
     "esbenp.prettier-vscode",
     "ms-vscode-remote.remote-containers",
     "humao.rest-client",
     "streetsidesoftware.code-spell-checker-russian",
     "tldraw-org.tldraw-vscode",
     "rebornix.toggle",
-    "samverschueren.linter-xo"
+    "samverschueren.linter-xo",
+    "haskell.haskell",
+    "justusadam.language-haskell",
+    "maximetinu.identical-sublime-monokai-csharp-theme-colorizer",
+    "DominicVonk.parameter-hints"
   ],
   // List of extensions recommended by VS Code that should not be recommended for users of this workspace.
   "unwantedRecommendations": []

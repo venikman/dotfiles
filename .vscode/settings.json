@@ -6,7 +6,6 @@
   "editor.copyWithSyntaxHighlighting": true,
   "diffEditor.ignoreTrimWhitespace": false,
   "window.newWindowDimensions": "inherit",
-  "editor.snippetSuggestions": "top",
   "window.nativeFullScreen": false,
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
@@ -48,19 +47,20 @@
    * My OLD personal
    */
   "terminal.integrated.defaultProfile.osx": "zsh",
-  "liveshare.authenticationProvider": "GitHub",
   "explorer.confirmDelete": false,
   "workbench.activityBar.visible": false,
   "window.titleBarStyle": "custom",
   "window.title": "${rootName} ${separator} ${rootName} ${activeEditorLong}",
   "customizeUI.titleBar": "regular",
   "customizeUI.stylesheet": {
-    ".editor .title": "background: transparent !important;",
+    ".editor .title": "background: transparent !important;"
     // Hide top-right buttons
     // ".editor .title .actions-container .action-item a": "visibility: hidden;",
     // Change cursor color.
-    ".monaco-editor .cursor": "background: linear-gradient(to bottom, #7f00ff, #e100ff) !important; color: #292D3E !important"
   },
+  "editor.lineDecorationsWidth": 5,
+  "editor.glyphMargin": false,
+  // "editor.folding": false,
   "cSpell.userWords": [
     "cfdeploy",
     "csrf",
@@ -80,7 +80,6 @@
     "фулстак"
   ],
   "files.autoSave": "onFocusChange",
-  "editor.inlineSuggest.enabled": true,
   "explorer.confirmDragAndDrop": false,
   "workbench.iconTheme": "material-icon-theme",
   "[json]": {
@@ -88,11 +87,13 @@
   },
   "cSpell.enabled": true,
   "[javascript]": {
-    "editor.defaultFormatter": "denoland.vscode-deno"
+    "editor.defaultFormatter": "denoland.vscode-deno",
+    "editor.suggest.showKeywords": false
   },
   "[haskell]": {},
   "[typescript]": {
-    "editor.defaultFormatter": "denoland.vscode-deno"
+    "editor.defaultFormatter": "denoland.vscode-deno",
+    "editor.suggest.showKeywords": false
   },
   "[markdown]": {
     "editor.defaultFormatter": "denoland.vscode-deno"
@@ -103,7 +104,7 @@
   "insertDateString.format": "YYYY-MM-DD",
   "haskell.formattingProvider": "none",
   "editor.wordWrap": "on",
-  "workbench.colorTheme": "One Monokai",
+  "workbench.colorTheme": "Sublime Monokai",
   "gitlens.codeLens.enabled": false,
   "gitlens.statusBar.enabled": false,
   "gitlens.hovers.avatars": false,
@@ -112,11 +113,25 @@
   "gitlens.hovers.currentLine.over": "line",
   "gitlens.hovers.annotations.details": false,
   "gitlens.blame.avatars": false,
-  "gitlens.changes.locations": ["overview", "gutter"],
+  "gitlens.changes.locations": [
+    "overview",
+    "gutter"
+  ],
   "liveServer.settings.donotVerifyTags": true,
   "liveServer.settings.donotShowInfoMsg": true,
   "terminal.integrated.env.osx": {
     "FIG_NEW_SESSION": "1"
   },
-  "window.zoomLevel": 3
+  "editor.accessibilitySupport": "off",
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "denoland.vscode-deno",
+    "editor.suggest.showKeywords": false
+  },
+  "editor.tabSize": 2,
+  "editor.inlineSuggest.enabled": true,
+  "rewrap.autoWrap.enabled": true,
+  "editor.wordWrapColumn": 100,
+  "window.zoomLevel": 4,
+  "errorLens.delay": 1000,
+  "errorLens.statusBarColorsEnabled": true
 }
