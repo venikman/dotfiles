@@ -12,10 +12,6 @@
         "command": "workbench.view.scm"
     },
     {
-        "key": "cmd+k cmd+d",
-        "command": "workbench.view.debug"
-    },
-    {
         "key": "cmd+k cmd+x",
         "command": "workbench.extensions.action.showInstalledExtensions"
     },
@@ -30,27 +26,6 @@
     {
         "key": "cmd+t",
         "command": "workbench.action.terminal.toggleTerminal"
-    },
-    /**
-* Toggle Font Size
-**/
-    {
-        "key": "cmd+k cmd+k",
-        "command": "toggle",
-        "when": "editorTextFocus",
-        "args": {
-            "id": "fontSize",
-            "value": [
-                {
-                    "editor.fontSize": 15,
-                    "editor.lineHeight": 45
-                },
-                {
-                    "editor.fontSize": 12,
-                    "editor.lineHeight": 0
-                }
-            ]
-        }
     },
     /**
 * File Explorer
@@ -159,13 +134,6 @@
         "key": "shift+enter",
         "command": "editor.action.previousMatchFindAction",
         "when": "findWidgetVisible"
-    },
-    /**
-* Open DevTools
-**/
-    {
-        "key": "alt+cmd+i",
-        "command": "workbench.action.toggleDevTools"
     },
     /**
 * Project Switching
