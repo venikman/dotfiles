@@ -1,137 +1,15 @@
 {
-  "cSpell.language": "en,ru",
-  /**
-   * Better Default
-   **/
-  "editor.copyWithSyntaxHighlighting": true,
-  "diffEditor.ignoreTrimWhitespace": false,
-  "window.newWindowDimensions": "inherit",
-  "window.nativeFullScreen": false,
-  "files.insertFinalNewline": true,
-  "files.trimFinalNewlines": true,
+  "workbench.colorTheme": "Ayu Dark",
+  "window.zoomLevel": 6,
   "workbench.sideBar.location": "right",
-  "workbench.editor.showTabs": false,
-  "editor.minimap.enabled": false,
-  "editor.hover.enabled": false,
-  "editor.matchBrackets": "never",
-  "workbench.tips.enabled": false,
-  "editor.colorDecorators": false,
-  "workbench.startupEditor": "none",
-  "editor.selectionHighlight": true,
-  "editor.renderLineHighlight": "line",
-  "editor.occurrencesHighlight": true,
-  "workbench.editor.enablePreviewFromQuickOpen": false,
-  /**
-   * Typography
-   **/
-  "editor.fontFamily": "Jetbrains Mono",
-  "editor.fontSize": 12,
-  "editor.fontWeight": "400",
-  "editor.lineHeight": 0,
-  "editor.suggestFontSize": 12,
-  "editor.suggestLineHeight": 28,
-  "terminal.integrated.fontSize": 12,
-  "terminal.integrated.lineHeight": 1,
-  /**
-   * Find
-   **/
-  "search.useIgnoreFiles": false,
-  "search.exclude": {
-    // Hide everything in /public, except "index.php"
-    "**/public/{[^i],?[^n]}*": true,
-    "**/node_modules": true,
-    "**/dist": true,
-    "**/package-lock.json": true
-  },
-  /**
-   * My OLD personal
-   */
-  "terminal.integrated.defaultProfile.osx": "zsh",
-  "explorer.confirmDelete": false,
-  "workbench.activityBar.visible": false,
-  "window.titleBarStyle": "custom",
-  "window.title": "${rootName} ${separator} ${rootName} ${activeEditorLong}",
-  "customizeUI.titleBar": "regular",
-  "customizeUI.stylesheet": {
-    ".editor .title": "background: transparent !important;"
-    // Hide top-right buttons
-    // ".editor .title .actions-container .action-item a": "visibility: hidden;",
-    // Change cursor color.
-  },
-  "editor.lineDecorationsWidth": 5,
-  "editor.glyphMargin": false,
-  // "editor.folding": false,
-  "cSpell.userWords": [
-    "cfdeploy",
-    "csrf",
-    "Deno",
-    "fastify",
-    "fhir",
-    "foldl",
-    "FORGEROCK",
-    "Meatlovers",
-    "stas",
-    "testdouble",
-    "драйвить",
-    "Недбайлов",
-    "скилс",
-    "фича",
-    "фичи",
-    "фулстак"
-  ],
-  "files.autoSave": "onFocusChange",
-  "explorer.confirmDragAndDrop": false,
-  "workbench.iconTheme": "material-icon-theme",
-  "[json]": {
-    "editor.defaultFormatter": "denoland.vscode-deno"
-  },
-  "cSpell.enabled": true,
-  "[javascript]": {
-    "editor.defaultFormatter": "denoland.vscode-deno",
-    "editor.suggest.showKeywords": false
-  },
-  "[haskell]": {},
-  "[typescript]": {
-    "editor.defaultFormatter": "denoland.vscode-deno",
-    "editor.suggest.showKeywords": false
-  },
-  "[markdown]": {
-    "editor.defaultFormatter": "denoland.vscode-deno"
-  },
-  "amVim.useSystemClipboard": true,
-  "editor.suggestSelection": "first",
-  "editor.formatOnSave": true,
-  "insertDateString.format": "YYYY-MM-DD",
-  "haskell.formattingProvider": "none",
-  "editor.wordWrap": "on",
-  "workbench.colorTheme": "Sublime Monokai",
-  "gitlens.codeLens.enabled": false,
-  "gitlens.statusBar.enabled": false,
-  "gitlens.hovers.avatars": false,
-  "gitlens.hovers.pullRequests.enabled": false,
-  "gitlens.hovers.currentLine.details": false,
-  "gitlens.hovers.currentLine.over": "line",
-  "gitlens.hovers.annotations.details": false,
-  "gitlens.blame.avatars": false,
-  "gitlens.changes.locations": [
-    "overview",
-    "gutter"
-  ],
-  "liveServer.settings.donotVerifyTags": true,
-  "liveServer.settings.donotShowInfoMsg": true,
-  "terminal.integrated.env.osx": {
-    "FIG_NEW_SESSION": "1"
-  },
-  "editor.accessibilitySupport": "off",
-  "[typescriptreact]": {
-    "editor.defaultFormatter": "denoland.vscode-deno",
-    "editor.suggest.showKeywords": false
-  },
-  "editor.tabSize": 2,
+  "workbench.layoutControl.enabled": false,
+  "window.commandCenter": false,
+  "workbench.editor.enablePreview": false,
+  "files.autoSave": "afterDelay",
   "editor.inlineSuggest.enabled": true,
-  "rewrap.autoWrap.enabled": true,
-  "editor.wordWrapColumn": 100,
-  "window.zoomLevel": 4,
-  "errorLens.delay": 1000,
-  "errorLens.statusBarColorsEnabled": true
+  "workbench.iconTheme": "Monokai Pro Icons",
+  "terminal.integrated.fontSize": 10,
+  "workbench.editorAssociations": {
+    "*.pdf": "default"
+  }
 }

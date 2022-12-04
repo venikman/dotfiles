@@ -12,10 +12,6 @@
         "command": "workbench.view.scm"
     },
     {
-        "key": "cmd+k cmd+x",
-        "command": "workbench.extensions.action.showInstalledExtensions"
-    },
-    {
         "key": "cmd+k cmd+b",
         "command": "workbench.action.toggleSidebarVisibility"
     },
@@ -377,5 +373,9 @@
         "key": "f2",
         "command": "-editor.action.rename",
         "when": "editorHasRenameProvider && editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "cmd+k cmd+x",
+        "command": "workbench.views.extensions.installed.focus"
     }
 ]
