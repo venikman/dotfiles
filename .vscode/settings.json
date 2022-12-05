@@ -1,8 +1,7 @@
 {
-  "workbench.colorTheme": "Ayu Dark",
-  "window.zoomLevel": 6,
+  "workbench.colorTheme": "Monokai",
+  "window.zoomLevel": 1,
   "workbench.sideBar.location": "right",
-  "workbench.layoutControl.enabled": false,
   "window.commandCenter": false,
   "workbench.editor.enablePreview": false,
   "files.autoSave": "afterDelay",

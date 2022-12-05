@@ -1,4 +1,4 @@
-  defaults write -g com.apple.swipescrolldirection 1 # scrolling direction
+  defaults write -g com.apple.swipescrolldirection 0 # scrolling direction
 
 # repead spead
 defaults write -g InitialKeyRepeat -int 10 # normal minimum is 15 (225 ms)
